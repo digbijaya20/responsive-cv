@@ -18,15 +18,15 @@
             <button type="button" class="toggle-btn" onclick="topRegistrationBtn()">Register</button>
         </div>
         <form id="login"class="input-group">
-            <input type="text" class="input-field" placeholder="User Id" required>
-            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="text" class="input-field" id="userId" placeholder="User Id" required>
+            <input type="text" class="input-field" id="password" placeholder="Enter Password" required>
             <button type="submit" style="margin-top: 20px;" class="submit-btn">Log in</button>
         </form>
         <form id="register" class="input-group">
-            <input type="text" class="input-field" placeholder="User Id" required>
-            <input type="text" class="input-field" placeholder="Email Id" required>
-            <input type="text" class="input-field" placeholder="Enter Password" required>
-            <button type="submit" style="margin-top: 20px;" class="submit-btn">Register</button>
+            <input type="text" class="input-field" id="nameS" placeholder="Full Name" required>
+            <input type="text" class="input-field" id="emailS" placeholder="Email Id" required>
+            <input type="text" class="input-field" id="passwordS" placeholder="Enter Password" required>
+            <button type="submit" style="margin-top: 20px;" class="submit-btn" onclick="signUp()">Register</button>
         </form>
        </div>
        

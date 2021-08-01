@@ -13,3 +13,14 @@ function topLoginBtn(){
     y.style.left ="450px";
     z.style.left ="0px";
 }
+
+function signUp(){
+    var name = document.getElementById('nameS').value;
+    var email = document.getElementById('emailS').value;
+    var password = document.getElementById('passwordS').value;
+
+    localStorage.setItem("name",name)
+    localStorage.setItem("email",email)
+    localStorage.setItem("password",password)
+
+}
