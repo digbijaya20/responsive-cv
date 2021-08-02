@@ -24,3 +24,24 @@ function signUp(){
     localStorage.setItem("password",password)
 
 }
+
+function logIn(){
+    var email = document.getElementById('emailL').value;
+    var password = document.getElementById('passwordL').value;
+
+    var emailG = localStorage.getItem("email");
+    var passwordG = localStorage.getItem("password");
+
+    if(email == emailG && password == passwordG){
+        alert("Login successful")
+        // setTimeout(function(){document.location.href = "home.html;"},500);
+        location.replace('/home.html');
+        
+    }
+    else{
+
+        alert("Email and password is incorrect!")
+        return false;
+    }
+}
+
