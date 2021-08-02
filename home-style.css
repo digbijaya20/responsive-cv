@@ -209,37 +209,6 @@ h1,h2,h3,h4,h5,h6,p{
   left: 30px;
 }
 
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-.testimonial-carousel .text-center h4{
-
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
-}
-
-
-
 /* ========================== Contact Us ========================*/
 
 .contact-form .help-block ul {
@@ -249,33 +218,5 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-/*====================== Back to buttom ==================*/
 
-.scroll-to-bottom {
-  position: fixed;
-  width: 20px;
-  left: calc(50% - 10px);
-  bottom: 30px;
-  z-index: 11;
-  animation: action 1s infinite alternate;
-}
 
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 30px;
-  text-align: center;
-  right: 30px;
-  bottom: 30px;
-  z-index: 11;
-  animation: action 1s infinite alternate;
-}
-
-@keyframes action {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-15px);
-  }
-}
