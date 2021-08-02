@@ -44,11 +44,6 @@ h1,h2,h3,h4,h5,h6,p{
 /********** Template CSS ************/
 
 
-.text-stroke-header {
-  -webkit-text-stroke: 3px #ffffff;
-  color: transparent;
-}
-
 .btn {
   padding: 10px 25px;
   border-radius: 100px;
